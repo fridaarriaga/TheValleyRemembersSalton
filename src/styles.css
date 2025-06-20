@@ -1,0 +1,15 @@
+/* styles.css */
+.container {
+    background-color: rgb(232, 26, 60);
+    color: rgb(207, 5, 5);
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+body {
+    cursor: url('https://cdn-icons-png.flaticon.com/512/616/616408.png') 16 16, auto;
+  }
+  
+  

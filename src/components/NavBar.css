@@ -1,0 +1,102 @@
+/* NavBar.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 217, 0, 0.658);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #F97316; /* orange-500 */
+    margin-left: -200px; 
+    transition: transform 0.4s ease;
+    
+  }
+  .logo:hover {
+    transform: scale(1.1);
+    
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem; /* rounded-md */
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    color: #374151; /* gray-700 */
+  }
+  
+  .home-link {
+    background-color: #F97316; /* orange-500 */
+    color: white;
+  }
+  
+  .home-link:hover {
+    background-color: #EA580C; /* orange-600 */
+  }
+  
+  .data-link {
+    background-color: #FBBF24; /* yellow-400 */
+    color: black;
+  }
+  
+  .data-link:hover {
+    background-color: #F59E0B; /* yellow-500 */
+  }
+  
+  .learn-link {
+    background-color: #374151; /* gray-700 */
+    color: #FBBF24; /* yellow-400 */
+  }
+  
+  .learn-link:hover {
+    background-color: #1F2937; /* gray-800 */
+  }
+  
+  .voices-link {
+    background-color: #3B82F6; /* blue-500 */
+    color: white;
+  }
+  
+  .voices-link:hover {
+    background-color: #2563EB; /* blue-600 */
+  }
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 640px) {
+    .navbar-content {
+      flex-direction: column;
+      height: auto;
+      padding: 1rem;
+    }
+    .nav-links {
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 0.5rem;
+    }
+  }
+  

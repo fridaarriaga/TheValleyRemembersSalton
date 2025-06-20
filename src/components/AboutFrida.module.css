@@ -1,0 +1,85 @@
+.aboutContainer {
+  max-width: 1400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #2e436c;
+  border-radius: 16px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.aboutSubtitle {
+  font-size: 2rem;
+  color: rgb(255, 228, 75);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.aboutText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #fffefe;
+  margin-bottom: 30px;
+}
+
+.aboutSection {
+  margin-bottom: 50px;
+}
+
+.aboutImage {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 20px auto; /* centers image and adds bottom margin */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.1s ease;
+}
+.aboutImage:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(15, 14, 14, 0.2);
+}
+
+@media (min-width: 768px) {
+  .aboutImage {
+    width: 50%;
+  }
+}
+
+.mapContainer{
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.1s ease;
+}
+.mapContainer:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 24px rgb(58, 56, 56);
+}
+
+.emailLink {
+  color: #0077cc;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.emailLink:hover {
+  color: #005999;
+}
+
+figcaption {
+  color: rgb(251, 255, 28);
+  text-align: center;
+}
