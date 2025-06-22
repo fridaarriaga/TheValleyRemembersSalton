@@ -4,6 +4,12 @@ import "aos/dist/aos.css";
 import styles from "./AboutFrida.module.css";
 import berkeley from "../assets/berkeley.jpeg"
 import mexicali from "../assets/Mexicali.jpg"
+import birds from "../assets/birds.jpeg"
+import corvina from "../assets/corvina.jpeg"
+import sea from "../assets/sea.jpeg"
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
 
 export default function AboutSaltonSea() {
   useEffect(() => {
@@ -31,24 +37,17 @@ export default function AboutSaltonSea() {
 
       {/* Section 2: A Brief History */}
       <section className={styles.aboutSection} >
-        <h2 data-aos = "zoom-in"className={styles.aboutSubtitle}>Why an interest in the Salton Sea?</h2>
-        <img 
-        data-aos="fade-right"
-          src="https://images.squarespace-cdn.com/content/v1/522384f8e4b062b4a5ced35c/1433968745719-UCHN13HO4I61480JORLC/image-asset.jpeg"
-          alt="Salton Sea vacation spot in 1960s 2"
-          className="about-image"
-        />
+        <h2 data-aos = "zoom-out"className={styles.aboutSubtitle}>Why an interest in the Salton Sea?</h2>
 
         <figure>
         <img
-        data-aos="fade-left"
+          data-aos="zoom-in"
           src={mexicali}
           alt="Frida Arriaga spending the summer in Mexicali with her cousins"
           className="about-image"/>
           <figcaption>Frida and her younger brother, Imanol, spending the summer in Mexicali with her two cousins.</figcaption>
-          
-
         </figure>
+
         <p className={styles.aboutText}>
         In 2010, my aunt was deported for 10 years to Mexico. Along with her family, they moved to Mexicali, and over the span of the decade, my family and I would drive to her house for birthday parties, holidays, and get-togethers. While driving, I’d like to stare at the vast Salton Sea, and look how glittery it would look as the sun reflects the body of water. I would also notice how much of a ghost town it looked like with poster boards welcoming families to spend the summer at the Salton Sea as it was a perfect summer getaway. I eventually interned for a summer in high school with former assemblyman Eduardo Garcia and became more aware of the Salton Sea Restoration Program. Now a Computer Science major, I decided to code a website to make people more aware of the Salton Sea, its risks toward the neighboring people, and what some future plans are about it. If you have any feedback or comments on this website project, feel free to{' '}
             <a
@@ -61,6 +60,48 @@ export default function AboutSaltonSea() {
 </p>
 
       </section>
+      {/* Section: Image Carousel */}
+<section className={styles.aboutSection} data-aos="fade-up">
+  <h2 className={styles.aboutSubtitle}>Trip to Salton Sea</h2>
+  <Carousel
+    showArrows={true}
+    showThumbs={false}
+    autoPlay
+    infiniteLoop
+    interval={4000}
+    className={styles.carousel}
+  >
+    <div>
+      <img src={birds} alt="A few small birds near Salton Sea shore"/>
+      <p className={styles.aboutImage}>A few small birds near Salton Sea shore</p>
+    </div>
+    <div>
+      <img src={sea} alt="Old Salton Sea Postcard" />
+      <p className={styles.aboutImage}>Historic Salton Sea Postcard</p>
+    </div>
+    <div>
+      <img src="https://your-image-url-3.jpg" alt="Community Event in Coachella" />
+      <p className={styles.aboutImage}>Community Event in Coachella</p>
+    </div>
+    <div>
+    <img src={corvina} alt="Community Event in Coachella" />
+      <p className={styles.aboutImage}>Community Event in Coachella</p>
+    </div>
+    <div>
+    <img src="https://your-image-url-3.jpg" alt="Community Event in Coachella" />
+      <p className={styles.aboutImage}>Community Event in Coachella</p>
+    </div>
+    <div>
+    <img src="https://your-image-url-3.jpg" alt="Community Event in Coachella" />
+      <p className={styles.aboutImage}>Community Event in Coachella</p>
+    </div>
+
+  </Carousel>
+  <p className = {styles.aboutText}>
+    On June 22, 2025, after around a week of starting this project, I visited Desert Shores and Bombay Beach to step on the actual Salton Sea rather than seeing it from my car window. It was a really oeaceful experience, with little to no cars and movement in these cities. As I stepped on the sand, I could tell how much the sea has shrunk compared to recent years by the amount of sand on the shore. I was surprised to see a bit of wildlife such as a few small birds on the shore. 
+  </p>
+</section>
+
 
 
 

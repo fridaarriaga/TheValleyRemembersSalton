@@ -83,3 +83,9 @@ figcaption {
   color: rgb(251, 255, 28);
   text-align: center;
 }
+.carousel {
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
