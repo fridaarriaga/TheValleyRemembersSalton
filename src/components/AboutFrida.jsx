@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import styles from "./AboutFrida.module.css";
+
 import berkeley from "../assets/berkeley.jpeg"
 import mexicali from "../assets/Mexicali.jpg"
 import birds from "../assets/birds.jpeg"
@@ -36,7 +37,7 @@ export default function AboutSaltonSea() {
         data-aos = "flip-down"
           src={berkeley}
           alt="Picture of Frida Arriaga in the University of California, Berkeley."
-          className="about-image"
+          className={styles.aboutImage}
         />
         <p className={styles.aboutText}>
         Hello, my name is Frida Arriaga, and I’m a sophomore studying Computer Science at UC Berkeley. I was born and raised in the Coachella Valley and graduated as Salutatorian from Shadow Hills High School, Class of 2024. In my free time, I enjoy running, curating Spotify playlists, and listening to clasical music.        </p>
@@ -50,12 +51,11 @@ export default function AboutSaltonSea() {
         <img
         className = {styles.aboutImage}
 
-          data-aos="zoom-in"
           src={mexicali}
           alt="Frida Arriaga spending the summer in Mexicali with her cousins"
           />
           
-          <figcaption>Frida and her younger brother, Imanol, spending the summer in Mexicali with her two cousins.</figcaption>
+          <figcaption> Frida and her younger brother, Imanol, spending the summer in Mexicali with her two cousins.</figcaption>
         </figure>
 
         <p className={styles.aboutText}>
