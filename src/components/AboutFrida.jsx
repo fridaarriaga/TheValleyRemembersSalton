@@ -10,6 +10,7 @@ import sea from "../assets/sea.jpeg"
 import benches from "../assets/benches.jpeg"
 import pointing from "../assets/pointing.jpeg"
 import houses from "../assets/houses.jpeg"
+import shore from "../assets/shore.jpeg"
 import registration from "../assets/registration.jpeg"
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -91,30 +92,29 @@ export default function AboutSaltonSea() {
       <p className={styles.aboutImage}>Frida pointing at the Salton Sea</p>
     </div>
     <div>
-    <img src={houses} alt="Community Event in Coachella" />
-      <p className={styles.aboutImage}>Notice the shriking shoreline (the playa) and very few houses in the Salton Sea</p>
+    <img src={houses} alt="Very few houses in the Salton Sea" />
+      <p className={styles.aboutImage}>Notice the shrinking shoreline (the playa) and very few houses in the Salton Sea</p>
     </div>
     <div>
-      <img src = {benches} alt="Community Event in Coachella" />
+      <img src = {benches} alt="Free and unoccupied benches to admire the sea" />
       <p className={styles.aboutImage}>Free and unoccupied benches to admire the sea</p>
     </div>
     <div>
-    <img src={corvina} alt="Community Event in Coachella" />
-      <p className={styles.aboutImage}>Community Event in Coachella</p>
+    <img src={corvina} alt="Corvina Beach Campground" />
+      <p className={styles.aboutImage}>Corvina Beach Campground</p>
     </div>
     <div>
-    <img src={registration} alt="Community Event in Coachella" />
-      <p className={styles.aboutImage}>Community Event in Coachella</p>
+    <img src={registration} alt="corvina beach self registration" />
+      <p className={styles.aboutImage}>Corvina Beach self registration</p>
     </div>
     <div>
-    <img src="https://your-image-url-3.jpg" alt="Community Event in Coachella" />
-      <p className={styles.aboutImage}>Community Event in Coachella</p>
+    <img src={shore} alt="View of the Salton Sea" />
+      <p className={styles.aboutImage}>View of the Salton Sea</p>
     </div>
 
   </Carousel>
   <p className = {styles.aboutText}>
-    On June 22, 2025, after around a week of starting this project, I visited Desert Shores and Bombay Beach to step on the actual Salton Sea rather than seeing it from my car window. It was a really oeaceful experience, with little to no cars and movement in these cities. As I stepped on the sand, I could tell how much the sea has shrunk compared to recent years by the amount of sand on the shore. I was surprised to see a bit of wildlife such as a few small birds on the shore. 
-  </p>
+  On June 22, 2025, about a week after starting this project, I visited Desert Shores and Bombay Beach to experience the Salton Sea firsthand, rather than just seeing it from my car window. It was a peaceful experience, with little to no cars or movement in these towns. As I looked at the sea, I could tell how much it had shrunk in recent years by the amount of exposed sand along the shore. I was surprised to see a bit of wildlife—like a few small birds—by the water. Walking around, it felt like any other beach, like you could just jump in and start swimming. There are still remnants of what the Salton Sea vacation spot used to be. I saw an old ticket booth where, once upon a time, a worker would collect entrance fees. Now, you can just drive right in.   </p>
 </section>
 
 
