@@ -21,10 +21,10 @@ export default function Data() {
           className="about-image"
         />
         <p className="about-text">
-        In 2018, a key water transfer agreement ended—one that had delivered 800,000 acre-feet of water annually to the Salton Sea.
+        In 2003, the Quantification Settlement Agreement (QSA) required the Imperial Irrigation District to send up to 800,000 acre-feet of conserved Colorado River water annually to the Salton Sea as a temporary mitigation measure. This water came from conservation efforts such as canal lining and improved irrigation efficiency. The agreement specified that these mitigation flows would end after 15 years, and they officially stopped on December 31, 2017. As a result, no mitigation water was delivered to the Salton Sea beginning in 2018.
         As the shoreline recedes, vital wetlands and habitats for native and migratory birds are disappearing, endangering species that rely on the Sea during their seasonal journeys. But it’s not just the wildlife at risk.
-The exposed lakebed—called the playa—has become a major source of toxic dust. As wind picks up fine particles from the dry soil, the surrounding communities, many of which are low-income and historically underserved, suffer the consequences. These airborne particulates contain dangerous chemicals and heavy metals left behind by decades of agricultural runoff.
-The Salton Sea Air Basin is now considered one of the most polluted regions in the United States.
+The exposed playa of the Salton Sea has become a major source of toxic dust, severely affecting nearby communities—especially low-income, predominantly Latinx farmworker communities and Indigenous families. Childhood asthma rates in the region soar between 20–24%, double the California average, with hospitalizations far above norm. Studies link playa dust to lung inflammation, bronchitis, wheezing, chronic coughing, sinusitis, and even disrupted sleep in children.
+
  </p>
       </section>
      {/* Section 2: Soil */}
@@ -46,7 +46,7 @@ The Salton Sea Air Basin is now considered one of the most polluted regions in t
 
         </figure>
         The soil in the Salton Sea region emits more than 11 tons of nitrogen oxides (NOx) per day—the same amount as a busy freeway—creating smog-forming pollutants that harm air quality. According to Dr. Ian Faloona, a biometeorologist at UC Davis, “In the Salton Sea Air Basin—both in the Imperial and Coachella Valleys combined—at least one-third of all the pollutant gases in the air came from the soil” when sampled. Using two monitoring sites, Dr. Faloona and his team found that soil NOx emissions are 10 times higher than current estimates by California air regulators.
-The main driver of these high emissions? Year-round farming activity. The Imperial Valley is a major agricultural hub, home to over 400 farms producing more than 65 different crops. Dr. Faloona emphasizes that this study underscores the urgent need to better account for emissions from agricultural soils in order to protect air quality in both the Imperial and Coachella Valleys.
+The main driver of these high emissions? Year-round farming activity. Heavy use of fertilizers, irrigation and rising temperatures are known to increase NOx soil emissions — all of which occur in the study area. The Imperial Valley is a major agricultural hub, home to over 400 farms producing more than 65 different crops. Dr. Faloona emphasizes that this study underscores the urgent need to better account for emissions from agricultural soils in order to protect air quality in both the Imperial and Coachella Valleys.
  </p>
       </section>
 
@@ -93,12 +93,10 @@ Senator Padilla emphasized the long-term significance of the legislation, statin
     className="about-image"
   />
   <p className="about-text">
-    Nathan White, CEO of <strong>AGGES Inc.</strong>, has proposed a bold plan to import desalinated water from Mexico’s <strong>Sea of Cortez</strong> to refill the Salton Sea. The vision includes constructing a long-distance pipeline or canal system spanning hundreds of miles—an ambitious effort to address the region’s escalating environmental crisis and groundwater depletion.
-    <br /><br />
-    However, California’s <strong>Independent Review Panel</strong> rejected the proposal, citing prohibitively high costs—<em>estimated in the tens of billions of dollars</em>—along with significant environmental risks and extremely lengthy timelines 
-    (<a href="https://transform.ucsc.edu/salton-sea/" target="_blank" rel="noopener noreferrer">transform.ucsc.edu</a>, 
-    <a href="https://www.latimes.com/california/story/2022-10-05/panel-rejects-idea-of-filling-salton-sea-with-ocean-water?" target="_blank" rel="noopener noreferrer">latimes.com</a>, 
-    <a href="https://saltonsea.ca.gov" target="_blank" rel="noopener noreferrer">saltonsea.ca.gov</a>).
+    Nathan White, CEO of AGGES Inc., has proposed a bold plan to import desalinated water from Mexico’s Sea of Cortez to refill the Salton Sea. The vision includes constructing a long-distance pipeline or canal system spanning hundreds of miles—an ambitious effort to address the region’s escalating environmental crisis and groundwater depletion.
+    However, California’s Independent Review Panel rejected the proposal, citing prohibitively high costs—<em>estimated in the tens of billions of dollars</em>—along with significant environmental risks and extremely lengthy timelines  
+    <a href="https://www.latimes.com/california/story/2022-10-05/panel-rejects-idea-of-filling-salton-sea-with-ocean-water?" target="_blank" rel="noopener noreferrer"> (latimes.com)</a>.
+
     <br /><br />
     As <strong>UC Santa Cruz professor Brent Haddad</strong>, who led the panel, stated:
     
