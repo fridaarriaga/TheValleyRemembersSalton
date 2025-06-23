@@ -39,9 +39,9 @@ The exposed playa of the Salton Sea has become a major source of toxic dust, sev
         <figure>
         <img
           src={farming}
-          alt="Frida Arriaga spending the summer in Mexicali with her cousins"
+          alt="Manuel Arriaga (Frida's dad) and Dani Arriaga (Frida's uncle) picking grapes in a field in Coachella (1997)"
           className="about-image"/>
-          <figcaption>Arriaga Family picking grapes in Coachella (1986)</figcaption>
+          <figcaption>Dani Arriaga (Frida's uncle, third from the left) and Manuel Arriaga (Frida's dad, fifth from the left) picking grapes in the Coachella fields (1997)</figcaption>
           
 
         </figure>
@@ -98,7 +98,7 @@ Senator Padilla emphasized the long-term significance of the legislation, statin
     <a href="https://www.latimes.com/california/story/2022-10-05/panel-rejects-idea-of-filling-salton-sea-with-ocean-water?" target="_blank" rel="noopener noreferrer"> (latimes.com)</a>.
 
     <br /><br />
-    As <strong>UC Santa Cruz professor Brent Haddad</strong>, who led the panel, stated:
+    As UC Santa Cruz professor Brent Haddad, who led the panel, stated:
     
     “It’s not feasible… The panel feels that the state should no longer consider water importation from the Sea of Cortez to restore the Salton Sea.”
     
@@ -106,9 +106,9 @@ Senator Padilla emphasized the long-term significance of the legislation, statin
 
     <em>“The Sea of Cortez Import Concept was rejected… based on its high cost, environmental damage, minimal benefits to Mexico beyond construction and operations jobs, and potential that benefits would not be realized.”</em>
     <br /><br />
-    Instead, the panel endorsed a more realistic strategy that combines a <strong>large-scale desalination facility at the Salton Sea</strong> with <strong>voluntary Colorado River water transfers</strong>, particularly through compensated fallowing in the Imperial Irrigation District. According to the report, this method is far more <em>cost-effective, faster to implement,</em> and <em>less environmentally damaging</em> than international importation:
-    
-    “This combination … is the Panel’s recommended approach to the long-term restoration of the Salton Sea via importation.”
+    Instead, the panel endorsed a more realistic strategy: “The Colorado River Voluntary Transfer Concept is based on the compensated, voluntary fallowing program successfully operated by the Imperial Irrigation District (IID) from 2003 to 2017… The imported water would offset water lost from brine production from a remediation desalination facility at the Salton Sea. This combination of a large-scale desalination facility (twice the size of California’s Carlsbad plant) at the Salton Sea, brine-effluent replacement water from a compensated, voluntary transfer program in IID, playa dust suppression projects, and a salt disposal plan is the Panel’s recommended approach to the long-term restoration of the Salton Sea via importation… This concept is far less expensive than the alternatives. It minimizes delay-caused spikes in salinity and arrives at target salinity at the same time or sooner than the alternatives. By avoiding building extensive infrastructure, it has superior environmental and greenhouse gas (GHG) performance. Mexico will lose the benefits from desalination/piping construction and operations employment, but also avoid the environmental damage from the same.”
+    <a href="https://transform.ucsc.edu/wp-content/uploads/2022/09/Summary_Report_9-29-22_Final.pdf?" target="_blank" rel="noopener noreferrer"> (Salton Sea Independent Review Panel
+        Summary Report)</a>
   </p>
 </section>
 
