@@ -48,11 +48,13 @@ export default function AboutSaltonSea() {
 
         <figure>
         <img
+        className = {styles.aboutImage}
+
           data-aos="zoom-in"
           src={mexicali}
           alt="Frida Arriaga spending the summer in Mexicali with her cousins"
-          className = {styles.aboutImage}
           />
+          
           <figcaption>Frida and her younger brother, Imanol, spending the summer in Mexicali with her two cousins.</figcaption>
         </figure>
 
